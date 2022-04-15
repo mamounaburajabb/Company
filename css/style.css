@@ -1,0 +1,277 @@
+* {
+    margin: 0 auto;
+}
+
+.div {
+    overflow: hidden;
+}
+
+nav {
+    z-index: 100;
+}
+
+.navbar {
+    height: 60px;
+    width: 100%;
+    background-color: #0C3C60;
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    scroll-margin-top: 100px;
+}
+
+.textnav {
+    padding-top: 19px;
+    margin-left: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+.nav1 {
+    display: flex;
+    flex-direction: row;
+    padding-top: 15px;
+}
+
+.list {
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+.login {
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-bottom: 15px;
+}
+
+.log {
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.bacimg {
+    background-image: url("../image/aaaaaa.jpg");
+    height: 500px;
+    width: 100%;
+    background-size: 1600px 500px;
+}
+
+.textbac {
+    text-align: center;
+    justify-self: center;
+    height: 200px;
+    width: 800px;
+    background-color: aliceblue;
+    position: absolute;
+    top: 330px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 1;
+}
+
+.span1 {
+    margin-top: 25px;
+    color: #0C3C60;
+}
+
+.button {
+    height: 40px;
+    width: 230px;
+    font-size: 18px;
+    color: #0C3C60;
+    border: solid 1px #0C3C60;
+}
+
+.button:hover {
+    height: 40px;
+    width: 230px;
+    font-size: 18px;
+    color: #ffffff;
+    border: solid 1px #0C3C60;
+    background-color: #0C3C60;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    margin: 70px;
+    text-align: center;
+    border: solid 1px #0C3C60;
+    height: 500px;
+}
+
+.cardtext {
+    font-size: 40px;
+    padding-top: 30px;
+    color: #0C3C60;
+}
+
+.cardp {
+    padding-top: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+}
+
+.cardb {
+    height: 50px;
+    width: 150px;
+    margin-top: 60px;
+    font-size: 15px;
+    background-color: #0C3C60;
+    color: #ffffff;
+}
+
+.cardb:hover {
+    margin-top: 60px;
+    font-size: 20px;
+    border: solid 1px #0C3C60;
+    background-color: #ffffff;
+    color: #0C3C60;
+}
+
+.about-us {
+    position: relative;
+    text-align: center;
+    padding-top: 80px;
+    color: #000000;
+    z-index: 100px;
+    margin-right: 1500px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.abouttext {
+    text-align: center;
+    padding-left: 580px;
+    width: 200px;
+    color: #0C3C60;
+    padding-top: 60px;
+}
+
+.aboutimg {
+    position: absolute;
+    opacity: .3;
+    z-index: 1px;
+}
+
+.aboutp {
+    width: 550px;
+    margin-top: 15px;
+    padding-top: 20px;
+    background-color: #ffffff;
+    padding-bottom: 20px;
+    padding-left: 420px;
+    font-size: large;
+}
+
+.about-b {
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #0C3C60;
+    height: 40px;
+    width: 120px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 630px;
+}
+
+.clinet {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+}
+
+.logo img {
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+    border: solid 1px black;
+    padding: 40 70px;
+    height: 50px;
+    opacity: .3;
+}
+
+.form {
+    margin-top: 220px;
+    height: 550px;
+    width: 100%;
+    background-color: #0C3C60;
+    color: #ffffff;
+}
+
+.inputtext {
+    border: none;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    background-color: #0C3C60;
+    width: 500px;
+    padding-top: 30px;
+    font-size: 25px;
+    color: #ffffff;
+    padding-bottom: 10px;
+}
+
+.formL {
+    margin-top: 50px;
+    padding-left: 150px;
+    color: #ffffff;
+    font-size: 25px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact {
+    padding-left: 45%;
+    padding-top: 40px;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+}
+
+.sub {
+    width: 800px;
+    font-size: 20px;
+}
+
+.submitt {
+    height: 40px;
+    width: 130px;
+    color: #000000;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.label {
+    margin-left: 0;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    background-color: #072136;
+}
+
+.footer1 {
+    padding-top: 0px;
+    width: 280px;
+    color: #ffffff;
+    padding-top: 70px;
+}
